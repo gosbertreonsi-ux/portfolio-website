@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #0f172a;
+    color: white;
+    line-height:1.6 ;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3rem;
+    color: #38bdf8;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    margin-top: 10px;
+}
+
+section{
+    padding: 6cqi 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.skills ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills li{
+    list-style: none;
+    background: #1e293b;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.contact p{
+    margin-bottom: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li{
+    list-style:none ;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #38bdf8;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background:#38bdf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
